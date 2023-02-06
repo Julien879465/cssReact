@@ -1,0 +1,54 @@
+:root {
+    box-sizing: border-box;
+    width: 600px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    border: solid 2px gray;
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px gray;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+    border-top: solid 2px lightgray;
+    
+
+}
+h1 {
+    font-size: xx-large;
+    color: black;
+    margin-left: 30px;
+}
+h2{
+    font-size: x-large;
+    color: gray;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.star{
+    height: 24px;
+    width: 24px;
+    margin-left: 30px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
